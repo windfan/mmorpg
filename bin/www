@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+'use strict';
+var app = require('./../app');
+var server = require('http').createServer(app);
+
+/* Listening to the port */
+server.listen(3000, () => {
+  console.log('Listening on port %d', 3000 );
+});
