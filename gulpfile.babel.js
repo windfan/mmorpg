@@ -7,7 +7,7 @@ import source from "vinyl-source-stream";
 gulp.task("transpile", () => {
   let files = [
     "./public/js/src/app.js",
-    "./public/js/src/class/Person.js"
+    "./public/js/src/class/Player.js"
   ];
   return browserify(files)
     .transform("babelify")

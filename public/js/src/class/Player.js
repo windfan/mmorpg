@@ -1,6 +1,6 @@
 'use strict';
 
-class Person {
+class Player {
   constructor(name) {
     this.name = name;
   }
@@ -9,4 +9,4 @@ class Person {
   }
 }
 
-module.exports = Person;
+export { Player };

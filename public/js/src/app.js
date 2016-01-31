@@ -1,6 +1,6 @@
 'use strict';
 
-import Person from "./class/Person";
+import {Player} from "./class/Player";
 
-let person = new Person("Victor Huang");
-console.log(person.greet());
+let player = new Player("Victor Huang");
+console.log(player.greet());
